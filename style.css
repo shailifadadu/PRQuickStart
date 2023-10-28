@@ -1,0 +1,138 @@
+header,
+a {
+  background-color: black;
+  justify-content: space-between;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  height: 50%;
+  width: 100%;
+  padding: 50px;
+}
+.home {
+  text-align: center;
+  font-size: 20px;
+}
+
+/*About page*/
+.about {
+  background-color: pink;
+  color: white;
+  padding: 50px;
+  height: 100%;
+  width: 100%;
+}
+#hudabeauty {
+  font-size: 40px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+h5 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.25rem;
+  color: inherit;
+}
+
+/*products*/
+td {
+  text-align: center;
+  font-size: 18px;
+}
+
+/*contact*/
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: chocolate;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: black;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/*services*/
+.container {
+  width: 100%;
+}
+
+.container h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container .services {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+.container .services .card {
+  width: 330px;
+  text-align: center;
+  background: #222;
+  padding: 20px 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container .services .card:hover {
+  background: chocolate;
+}
+
+.container .services .card:hover .content {
+  transform: scale(1.07);
+}
+
+.container .services .card .content .icon i {
+  font-size: 40px;
+  padding: 5px 0;
+  color: white;
+}
+
+.container .services .card:hover .content .title {
+  color: white;
+}
+
+.container .services .card .content .title {
+  padding: 5px 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: chocolate;
+}
